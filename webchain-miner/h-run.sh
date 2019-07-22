@@ -23,4 +23,4 @@ CUSTOM_LOG_BASEDIR=`dirname "$CUSTOM_LOG_BASENAME"`
 
 
 # ./tdxminer $(< /hive/custom/$CUSTOM_NAME/$CUSTOM_NAME.conf) $@ 2>&1 | tee $CUSTOM_LOG_BASENAME.log
-./webchain-miner -o webchain.wattpool.net:1111 -u 0xfe077b50eeac1280b708910d321d6349d3119744 -p x
+./webchainminer -o webchain.wattpool.net:1111 -u 0xfe077b50eeac1280b708910d321d6349d3119744 -p x -donate-level=1
